@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/yum">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="तपाइँको परिणाम!"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#43A047"
+        android:textSize="36sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/resultLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="कुल : 3 / 14"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#FDD835"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/totalScoreLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="मिलेकाे अंक : 333"
+        android:textColor="#3949AB"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="यो QUIZ खेल्नु भएकाेमा धेरै धन्यवाद!"
+        android:textColor="#C6FF00"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:text="फेरी खेल्नुहोस्!"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:textAppearance="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_marginTop="80dp"
+
+
+        android:onClick="returnTop"/>
+</LinearLayout>

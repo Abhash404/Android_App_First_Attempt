@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/ground">
+
+    <TextView
+        android:id="@+id/countLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="प्रश्न संख्या : 1"
+        android:textColor="#43A047"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/questionLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="i used to rule the world seas would rise when i gave the word"
+        android:textColor="#E53935"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/answerBtn1"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="80dp"
+        android:onClick="checkAnswer"
+        android:text="Answer1"
+        android:background="#4CAF50"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/answerBtn2"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="6dp"
+        android:onClick="checkAnswer"
+        android:text="Answer2"
+        android:background="#9C27B0"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/answerBtn3"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="6dp"
+        android:onClick="checkAnswer"
+        android:text="Answer3"
+        android:background="#0091EA"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/answerBtn4"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="6dp"
+        android:onClick="checkAnswer"
+        android:text="Answer4"
+        android:background="#B71C1C"
+        android:textStyle="bold" />
+</LinearLayout>
